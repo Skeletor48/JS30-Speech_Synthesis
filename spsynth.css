@@ -1,0 +1,169 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+  display:flex;
+  min-height: 100vh;
+  align-items: center;
+
+  background-image: url("https://previews.123rf.com/images/peshkov/peshkov1912/peshkov191200226/135976081-old-loud-speaker-on-concrete-wall-background-3d-rendering.jpg?fj=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+    position: absolute;
+}
+
+.circle.big {
+    padding:5rem;
+    width:50rem;
+    height:50rem;
+    margin:0 auto;
+    position: relative;
+    background:black;
+    text-align: center;
+    z-index: 1;
+    box-shadow:0 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.one {
+    left: -85px;
+    top: 50px;
+    border:0;
+    font-family: 'Inconsolata';
+    margin-bottom: 0;
+    font-size: 2rem;
+    cursor:pointer;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+}
+
+.two {
+    top: -90px;
+    left: 50px;
+    width: 135px;
+    height: 135px;
+}
+
+.three {
+    right: -120px;
+    top: -25px;
+    background: grey;
+    border:0;
+    font-family: 'Inconsolata';
+    margin-bottom: 0;
+    font-size: 2rem;
+    cursor:pointer;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+}
+
+
+.four {
+    left: -25px;
+    bottom: -25px;
+}
+
+.five {
+    bottom: -60px;
+    left: -100px;
+}
+
+.six {
+    right: -25px;
+    bottom: -65px;
+    background: grey;
+    border:0;
+    font-family: 'Inconsolata';
+    margin-bottom: 0;
+    font-size: 2rem;
+    cursor:pointer;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+}
+
+
+
+.title {
+  text-align: center;
+  top: 70px;
+  left: 37px;
+  position: absolute;
+  font-size: 1.7rem;
+}
+
+.holder {
+    width: 170px;
+    height: 170px;
+    background-color: grey;
+    right: 190px;
+    bottom: 280px;
+}
+
+.voicemate select {
+  width:25rem;
+  height: 25rem;
+  top: 340px;
+  margin:10px 0;
+  padding:10px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 2rem;
+  background:#F7F7F7;
+  outline:0;
+}
+
+textarea {
+  position: absolute;
+  width:25rem;
+  height: 25rem;
+  top: 150px;
+  left: 200px;
+  margin:10px 0;
+  padding:40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 2rem;
+  background:#F7F7F7;
+  outline:0;
+  text-align-last: center;
+}
+
+input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #9b59b6;
+  width: 80%;
+  transform: translate3d(-50%, -50%, 0);
+  box-shadow: 0 0 10px rgba(#000, 0.5);
+}
+
+label {
+  top: 15;
+  left: 25px;
+  position: absolute;
+  font-size: initial;
+}
+
+button:active {
+  transform: translateY(6px);
+}
